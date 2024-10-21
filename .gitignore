@@ -1,0 +1,71 @@
+# .NET Core & ASP.NET Core
+bin/
+obj/
+**/bin
+**/obj
+PROJECT.WebUI/wwwroot/lib/
+
+# Ignore NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Ignore JetBrains Rider project files
+.idea/
+*.sln.iml
+
+# User-specific files and directories
+*.user
+*.rsuser
+*.suo
+.vscode/
+.vscode/*
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/c_cpp_properties.json
+.vscode/csharp.json
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.ide-helper
+*.history
+.env
+
+# Ignore files related to test results
+TestResult/
+TestResults/
+*.trx
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore JetBrains Rider files
+.idea/
+*.sln.iml
+
+# Ignore Visual Studio Code
+.vscode/
+.vscode/*
+
+# Ignore Visual Studio for Mac
+.vscode/
+testResults
+
+# Ignore Node.js files
+node_modules/
+
+# Ignore files created by NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget\packages\
+
+# Ignore markdown files with build output
+_build/
+# End of .NET Core & ASP.NET Core
